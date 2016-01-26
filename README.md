@@ -8,4 +8,4 @@ This is a quick way to play with the TypeScript proposal at [#6606](https://gith
 
 `npm install "yortus/vscode-typeof"`
 
-`code ./vscode-typeof`
+`code ./node_modules/vscode-typeof`
