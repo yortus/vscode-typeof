@@ -8,6 +8,6 @@ This is a quick way to play with the TypeScript proposal at [#6606](https://gith
 
 1. Make sure you have Visual Studio Code installed.
 
-2. `npm install "yortus/vscode-typeof"`
+2. `npm install yortus/vscode-typeof`
 
 3. `code ./node_modules/vscode-typeof`
