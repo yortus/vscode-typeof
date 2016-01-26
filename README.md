@@ -6,6 +6,8 @@ This is a quick way to play with the TypeScript proposal at [#6606](https://gith
 
 ## Install and Open in VS Code
 
-`npm install "yortus/vscode-typeof"`
+1. Make sure you have Visual Studio Code installed.
 
-`code ./node_modules/vscode-typeof`
+2. `npm install "yortus/vscode-typeof"`
+
+3. `code ./node_modules/vscode-typeof`
