@@ -54,5 +54,5 @@ function foo<X,Y>(x: X, y: Y) {
 // Can query the return type of an overloaded function
 declare function bar(a: boolean): string;
 declare function bar(a: number): any[];
-type P = typeof bar(0);    // P is any[]
-type Q = typeof bar(true); // Q is string
+type P = typeof bar(as number);    // P is any[]
+type Q = typeof bar(as boolean); // Q is string
