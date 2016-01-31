@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/yortus/vscode-typeof#readme",
   "dependencies": {
-    "yortus-typescript-typeof": "^1.8.0"
+    "yortus-typescript-typeof": "^1.8.1"
   }
 }

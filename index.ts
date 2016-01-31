@@ -25,7 +25,7 @@ function myAPIFactory($http: {/***/}, id: number) {
     }
     return new MyAPI($http);
 }
-type MyAPI = typeof myAPIFactory(null, 0);
+type MyAPI = typeof myAPIFactory(as any, as number);
 function augmentAPI(api: MyAPI) {/***/}
 
 
@@ -40,7 +40,7 @@ interface MyInterface {
     },
 
     // prop2 shares some structure with prop1
-    prop2: typeof (<MyInterface>null).prop1.big.complex;
+    prop2: typeof (as MyInterface).prop1.big.complex;
 }
 
 
